@@ -1,0 +1,30 @@
+{
+  "name": "menma977/larapprove",
+  "description": "Larapprove is a comprehensive approval management system designed to streamline the request approval process.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Menma977\\Larapprove\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "menma977",
+      "email": "com.owl.minerva@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1.0",
+    "illuminate/database": "^10.0.0",
+    "illuminate/support": "^v10.0.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Menma977\\Larapprove\\LaraApproveServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
